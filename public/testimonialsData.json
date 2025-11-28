@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Sophia Reynolds",
+    "role": "UI/UX Designer",
+    "img": "https://randomuser.me/api/portraits/women/68.jpg",
+    "rating": 5,
+    "comment": "SkillSwap helped me find clients quickly and improve my design portfolio efficiently."
+  },
+  {
+    "name": "Ethan Carter",
+    "role": "Web Developer",
+    "img": "https://randomuser.me/api/portraits/men/45.jpg",
+    "rating": 4.8,
+    "comment": "The platform is amazing. I was able to find freelance projects and expand my network."
+  },
+  {
+    "name": "Mia Johnson",
+    "role": "Photographer",
+    "img": "https://randomuser.me/api/portraits/women/25.jpg",
+    "rating": 5,
+    "comment": "I love SkillSwap! It gave me exposure and helped me connect with amazing clients."
+  },
+  {
+    "name": "Liam Smith",
+    "role": "Digital Marketer",
+    "img": "https://randomuser.me/api/portraits/men/33.jpg",
+    "rating": 4.9,
+    "comment": "SkillSwap is user-friendly and professional. I recommend it to all freelancers!"
+  }
+]

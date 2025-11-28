@@ -1,0 +1,98 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://i.ibb.co.com/dsMdzkfK/photo-1511379938547-c1f69419868d.jpg",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://i.ibb.co.com/7xTM8CBc/photo-1529070538774-1843cb3265df.jpg",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Yoga for Beginners",
+    "providerName": "Mina Rahman",
+    "providerEmail": "mina@skillswap.com",
+    "price": 15,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Basic yoga sessions for flexibility and mindfulness.",
+    "image": "https://i.ibb.co.com/M58qgBjz/photo-1552196563-55cd4e45efb3.jpg",
+    "category": "Fitness"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Web Development Basics",
+    "providerName": "John Doe",
+    "providerEmail": "john@skillswap.com",
+    "price": 25,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Learn HTML, CSS, and JavaScript from scratch.",
+    "image": "https://i.ibb.co.com/pvDDW68v/pexels-photo-1181675.jpg",
+    "category": "Coding"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Photography 101",
+    "providerName": "Emma Williams",
+    "providerEmail": "emma@skillswap.com",
+    "price": 18,
+    "rating": 4.5,
+    "slotsAvailable": 2,
+    "description": "Learn the basics of DSLR photography and editing.",
+    "image": "https://i.ibb.co.com/n8mJVjm7/pexels-photo-274973.jpg",
+    "category": "Photography"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Basic Spanish Lessons",
+    "providerName": "Carlos Lopez",
+    "providerEmail": "carlos@skillswap.com",
+    "price": 12,
+    "rating": 4.6,
+    "slotsAvailable": 3,
+    "description": "Learn conversational Spanish for travel and daily life.",
+    "image": "https://i.ibb.co.com/7xTM8CBc/photo-1529070538774-1843cb3265df.jpg",
+    "category": "Language"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Digital Marketing Basics",
+    "providerName": "Nina Shah",
+    "providerEmail": "nina@skillswap.com",
+    "price": 22,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Learn social media marketing, SEO, and email campaigns.",
+    "image": "https://i.ibb.co.com/mCvhm8Hx/photo-1504384308090-c894fdcc538d.jpg",
+    "category": "Marketing"
+  },
+  {
+    "skillId": 8,
+    "skillName": "Intermediate Piano Lessons",
+    "providerName": "Liam Brown",
+    "providerEmail": "liam@skillswap.com",
+    "price": 30,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Enhance your piano skills with intermediate techniques.",
+    "image": "https://i.ibb.co.com/Hfx9VV3Y/photo-1513883049090-d0b7439799bf.jpg",
+    "category": "Music"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Learn & Teach Locally with SkillSwap 🎓",
+    "text": "Exchange your skills, grow together. Connect with learners and mentors near you.",
+    "image": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg",
+    "button": "Explore Skills"
+  },
+  {
+    "title": "Discover a World of Skills 🌍",
+    "text": "Music, Language, Design, Coding, Yoga & more — everything in one platform.",
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+    "button": "Browse Categories"
+  },
+  {
+    "title": "Connect. Collaborate. Create. 🤝",
+    "text": "Find local learners and mentors, share what you love, and learn what you need.",
+    "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg",
+    "button": "Join Now"
+  },
+  {
+    "title": "Trusted by 1000+ Learners 🌟",
+    "text": "Learn smarter, not harder. Real people, real learning, real results.",
+    "image": "https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg",
+    "button": "Get Started"
+  }
+]
