@@ -14,7 +14,7 @@ const HeroBanner = () => {
   const slides = use(data);
 
   return (
-    <section className="relative w-full h-[80vh] overflow-hidden z-0">
+    <section className="relative w-full h-[60vh] overflow-hidden z-0">
       <Swiper
         spaceBetween={30}
         effect="fade"

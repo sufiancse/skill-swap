@@ -9,7 +9,7 @@ import { RxDropdownMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const { signOutUser, user, setUser, loading } = useContext(AuthContext);
-  const [d , setD] = useState(false)
+  const [d, setD] = useState(false);
   const navigate = useNavigate();
 
   const handleSignOut = () => {
@@ -31,6 +31,7 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
+
       <li>
         <NavLink
           className={({ isActive }) =>
@@ -41,16 +42,41 @@ const Navbar = () => {
           All Skills
         </NavLink>
       </li>
+
       <li>
         <NavLink
           className={({ isActive }) =>
             isActive ? "text-primary font-bold" : ""
           }
-          to={"/profile"}
+          to={"/about-us"}
         >
-          My Profile
+          About Us
         </NavLink>
       </li>
+
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "text-primary font-bold" : ""
+          }
+          to={"/support"}
+        >
+          Support
+        </NavLink>
+      </li>
+
+      {user && (
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "text-primary font-bold" : ""
+            }
+            to={"/profile"}
+          >
+            My Profile
+          </NavLink>
+        </li>
+      )}
     </>
   );
 
@@ -58,9 +84,9 @@ const Navbar = () => {
     <div className=" shadow-sm bg-base-100">
       <div className="navbar   container mx-auto ">
         <div className="navbar-start">
-          <div onClick={()=>setD(!d)} className="dropdown">
-            <div  tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              {d?<ImCross size={18}/>:<RxDropdownMenu size={25}/>}
+          <div onClick={() => setD(!d)} className="dropdown">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+              {d ? <ImCross size={18} /> : <RxDropdownMenu size={25} />}
             </div>
             <ul
               tabIndex="-1"

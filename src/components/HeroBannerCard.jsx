@@ -4,7 +4,7 @@ import 'animate.css'
 const HeroBannerCard = ({ slide }) => {
   return (
     <div
-      className="relative h-[80vh]  bg-center bg-cover rounded-2xl overflow-hidden"
+      className="relative h-[60vh]  bg-center bg-cover rounded-t-2xl rounded-b-2xl overflow-hidden"
       style={{ backgroundImage: `url(${slide.image})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>

@@ -9,6 +9,8 @@ import SkillDetails from "../pages/SkillDetails";
 import NotFound from "../pages/NotFound";
 import PrivateRoute from "./PrivateRoute";
 import AllSkills from "../pages/AllSkills";
+import AboutUs from "../components/AboutUs";
+import Support from "../pages/Support";
 
 export const router = createBrowserRouter([
   {
@@ -46,11 +48,15 @@ export const router = createBrowserRouter([
       },
       {
         path: "/skill-details/:id",
-        element: (
-          <PrivateRoute>
-            <SkillDetails></SkillDetails>
-          </PrivateRoute>
-        ),
+        element: <SkillDetails></SkillDetails>,
+      },
+      {
+        path: "/about-us",
+        Component: AboutUs,
+      },
+      {
+        path: "/support",
+        Component: Support,
       },
     ],
   },
